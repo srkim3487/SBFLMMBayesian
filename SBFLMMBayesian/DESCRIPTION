@@ -1,0 +1,13 @@
+Package: SBFLMMBayesian
+Type: Package
+Title: Bayesian inference for BFLM, SBFLM, BFLMM, and SBFLMM
+Version: 1.0
+Date: 2025-10-20
+Author: Sooran Kim
+Maintainer: Sooran Kim <Sooran.Kim@nyulangone.org>
+Description: The package implements Bayesian inference for four models: (1) BFLM, a binary model based on generalized functional linear models (GFLM), (2) SBFLM, a binary spatial model based on spatial GFLM, (3) BFLMM, a binary mixed model based on GFLM, and (4) SBFLMM, spatial binary functional linear mixed model.
+License: GPL-3
+Imports: Rcpp (>= 1.0.13-1)
+LinkingTo: Rcpp, RcppArmadillo, testthat
+Suggests: xml2
+RoxygenNote: 7.3.2
