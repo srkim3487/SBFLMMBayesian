@@ -9,8 +9,10 @@ The methodology is based on:
 Kim, S., Kaiser, M. S., and Berg, E., (2025+). Bayesian analysis of binary Markov random field models with functional covariates and random effects. Statistical Modeling
 
 To install and load the package:
+```r
 devtools::install_github("srkim/SBFLMMBayesian")
 library(SBFLMMBayesian)
+```
 
 Below is an example using the included simulated dataset.
 ```r
