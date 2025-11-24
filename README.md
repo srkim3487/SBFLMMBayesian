@@ -13,7 +13,7 @@ devtools::install_github("srkim/SBFLMMBayesian")
 library(SBFLMMBayesian)
 
 Below is an example using the included simulated dataset.
-
+```r
 # Load example data included in the package
 data(data_example)
 X_list <- data_example$X_list
@@ -43,5 +43,5 @@ data_list=data_list, X_list = X_list, t=t, p=3, basis_type="fourier")
 initial_values <- c(0.5, -4.6, 1.1, -0.9, 2.2, -1.4, 0.4, 0.0, 0.1, -2.5, 2.0, -0.2, -1.1, -0.3, 1.0, 0.2, 0.4, 1.4)
 res_SBFLMM <- posterior_samples_sbflmm(M=8000, initial=initial_values, proposal_var_fixed=0.001, proposal_var_sigma2=1.1, proposal_var_rand=1, autotune=FALSE, prior_a=1, prior_b=1, M_auxz = 20, 
 data_list=data_list, nbd_list = nbd_list, X_list = X_list, t=t, p=3, basis_type="fourier") 
-
+```
 
