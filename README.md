@@ -14,7 +14,7 @@ devtools::install_github("srkim/SBFLMMBayesian")
 library(SBFLMMBayesian)
 ```
 
-Below is an example using the included simulated dataset.
+Below is an example using the included simulated dataset. For details on each function, please refer to the corresponding help page.
 ```r
 # Load example data included in the package
 data(data_example)
