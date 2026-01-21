@@ -10,7 +10,7 @@ Kim, S., Kaiser, M. S., and Berg, E., (2025+). Bayesian analysis of binary Marko
 
 To install and load the package:
 ```r
-devtools::install_github("srkim/SBFLMMBayesian")
+devtools::install_github("srkim3487/SBFLMMBayesian")
 library(SBFLMMBayesian)
 ```
 
