@@ -6,7 +6,7 @@ This R package implements four binary response models that incorporate functiona
 
 The methodology is based on:
 
-Kim, S., Kaiser, M. S., and Berg, E., (2025+). Bayesian analysis of binary Markov random field models with functional covariates and random effects. Statistical Modeling
+Kim, S., Kaiser, M. S., and Berg, E., (2026). Bayesian analysis of binary Markov random field models with functional covariates and random effects. Statistical Modeling
 
 To install and load the package:
 ```r
